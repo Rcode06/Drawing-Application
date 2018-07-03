@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Drawing Application</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" tyoe="text/css" href="style.css"/>
+
+	</head>
+
+
+	<body>
+	   <div id="toolbar">
+	     
+	      <div id="colors">Color: <input type="color" value="black" name="myColor" id="myColor"> </div>
+	   
+	       <div id="range">Size: 1 <input type="range"  value "5" min="1" max="100" id="myRange">100 <!-- </div> -->
+	  
+	
+	      <button id="brush"><img width="23" height="23" src="images/brush2.jpg"></button>
+	      <button id="eraser"><img width="23" height="23" src="images/eraser2.png"></button>  
+	      <button type="button" class="btn btn-danger" id="save">Save</button>
+	      <button type="button" class="btn btn-info" id="reset">Reset</button>
+
+	   
+	        
+	    </div>
+
+
+	  
+	      <br>	
+
+	   <canvas id="canvas">Your browser does not support canvas please upgrade it!</canvas>
+
+
+	</body>
+</html>
